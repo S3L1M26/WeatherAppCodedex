@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://content.r9cdn.net/rimg/dimg/ef/8c/ff016182-city-835-16e60d10354.jpg?crop=true&width=1366&height=768&xhint=1469&yhint=1033);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+}
+
+main {
+    background-color: rgba(227, 193, 173, 0.85);
+    position: relative;
+    top: 5%;
+    border: 1px solid;
+    border-radius: 5px;
+    min-width: 540px;
+    max-width: 50%;
+    margin: auto;
+    padding: 2em;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#weather-wrapper {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: space-between;
+}
+
+#weather-search {
+    display: flex;
+    width: 50%;
+}
+
+#search {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    height: 42px;
+}
+
+#submit {
+    border-radius: 0 5px 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 5em;
+    cursor: pointer;
+}
+
+#weather-data {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    padding: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+}
+
+#weather-data > img{
+    border-radius: 50%;
+    background-color: lightskyblue;
+}
+
+#forecast {
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+#forecast > h2{
+    margin-bottom: 10px;
+}
+
+#forecast-container {
+    flex-direction: rows;
+}
